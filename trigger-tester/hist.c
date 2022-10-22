@@ -11,8 +11,11 @@
 #include <sched.h>
 #include <immintrin.h>
 #include <signal.h>
-#include "ptedit_header.h"
+#ifdef MONITOR_INTEL
 #include "r0e.h"
+#else
+#include "ptedit_header.h"
+#endif
 
 // define cores for experiment
 #define CORE_VICTIM 0
