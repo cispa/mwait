@@ -12,7 +12,7 @@ import tikzplotlib
 from os import listdir
 from os.path import isfile, join
 
-path = "../../results/website_fp/" # the result from website_fingerprint
+path = "../website_fingerprinting/results/" # the result from website_fingerprint
 filt = ["google", "youtube", "tmall", "facebook", "qq", "baidu", "sohu", "taobao", "360", "jd", "amazon", "yahoo", "wikipedia", "zoom", "netflix"]
 do_filt = False
 maxtraces = -1
