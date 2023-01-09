@@ -2,7 +2,7 @@
 This repository contains the experiments of evaluation and case studies discussed in the paper 
 * "(M)WAIT for It: Bridging the Gap between Microarchitectural and Architectural Side Channels" (USENIX Security'23). 
 
-You can find the paper at the [USENIX website](https://www.usenix.org/conference/usenixsecurity23).
+You can find the paper at the [USENIX website](https://publications.cispa.saarland/3769/1/mwait_sec23.pdf).
 
 
 ## Tested Setup
