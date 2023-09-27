@@ -16,7 +16,7 @@
 
 #define OFFSET (64 * 21)
 #define INSTR_MONITOR asm volatile("umonitor %%rax" : : "a"(test+OFFSET), "c"(0), "d"(0));
-#define INSTR_WAIT asm volatile("xor %%rbx, %%rbx; umwait %%rcx; jnc 1f; inc %%rbx; 1: nop" : "=b"(carry) : "a"(-1), "d"(-1), "c"(0));
+#define INSTR_WAIT asm volatile("xor %%rbx, %%rbx; umwait %%ecx; jnc 1f; inc %%rbx; 1: nop" : "=b"(carry) : "a"(-1), "d"(-1), "c"(0));
 
 
 volatile int running = 1;
