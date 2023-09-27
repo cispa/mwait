@@ -49,7 +49,7 @@ This repository contains the following materials:
 If there are questions regarding these experiments, please send an email to `ruiyi.zhang (AT) cispa.de` or message `@Rayiizzz` on Twitter.
 
 ## Research Paper
-The paper is available at the [USENIX website](https://www.usenix.org/conference/usenixsecurity23). 
+The paper is available at the [USENIX website](https://www.usenix.org/conference/usenixsecurity23/presentation/zhang-ruiyi). 
 You can cite our work with the following BibTeX entry:
 ```latex
 @inproceedings{Zhang2023MWAIT,
